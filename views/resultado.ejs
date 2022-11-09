@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="styles_r.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <header>
+            <h3>Submitted Information</h3>
+
+            <section class="info">
+                <article>
+                    <label for="">Name:</label>
+                    <span>
+                        <%= campos.name %>
+                    </span>
+                </article>
+
+                <article>
+                    <label for="">Dojo Location:</label>
+                    <span>
+                        <%= campos.location %>
+                    </span>
+                </article>
+
+                <article>
+                    <label for="">Favorite Language:</label>
+                    <span>
+                        <%= campos.language %>
+                    </span>
+                </article>
+
+                <article>
+                    <label for="">Comment:</label>
+                    <span>
+                        <%= campos.comentario %>
+                    </span>
+                </article>
+
+                <form action="/formulario" method="get">
+                    <div class="botonera">
+                        <input type="submit" class="submit" value="Submit">
+                    </div>
+                </form>
+            </section>
+
+        </header>
+
+
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 60px;   
+}
+
+header{
+    width: 600px;
+    height: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: left;
+    border: 1px solid black;
+    /*border: 1px solid green;*/
+}
+
+h3{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 20px;
+    margin-top: 20px;    
+}
+
+article{
+    margin-bottom: 20px;
+}
+
+.submit{
+    width: 70px;;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+    background-color: blue;
+}
+

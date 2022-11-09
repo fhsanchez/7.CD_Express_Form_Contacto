@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles_f.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <section class="main">
+
+            <form action="/resultado" method="post">
+                <div class="nombre">
+                    <label>Your Name:</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="location">
+                    <label for="location">Dojo Location:</label>
+                    <select id="location" name="location">
+                        <option value="mountain view">Mountain View</option>
+                        <option value="other location">Other location</option>
+                    </select>
+                </div>
+
+                <div class="language">
+                    <label for="language">Favorite Language:</label>
+                    <select id="language" name="language">
+                        <option value="javascript">Javascript</option>
+                        <option value="node">Node</option>
+                    </select>
+                </div>
+
+
+                <p>Commnent (optional)</p>
+                <div>
+                    <textarea name="comentario" id="comentario" cols="30" rows="7">
+
+                    </textarea>
+                </div>
+
+               
+                <div class="botonera">
+                    <input type="submit" class="submit" value="Submit">
+                </div>
+          
+
+            </form>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
